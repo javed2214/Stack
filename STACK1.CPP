@@ -7,6 +7,7 @@ stack <int> sortStack(stack <int> &s);
 
 int main(){
 	stack <int> s;
+	stack <int> temp;
 	int n,p;
 	cout<<"No of Stack Elements: ";
 	cin>>n;
