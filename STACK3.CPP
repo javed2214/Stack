@@ -1,4 +1,5 @@
-	
+// Program to Reverse Each Word of a String using Stack
+
 #include<bits/stdc++.h>
 using namespace std;
 
