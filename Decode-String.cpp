@@ -27,12 +27,12 @@ int main(){
 		
 		if(isdigit(ch)){
 
-			int j=i;
 			int count=0;
-			while(isdigit(str[j])){
-				count=count*10+str[j]-'0';
-				j++;
+			while(isdigit(str[i])){
+				count=count*10+str[i]-'0';
+				i++;
 			}
+			i-=1;
 			integerStack.push(count);
 		}
 		
